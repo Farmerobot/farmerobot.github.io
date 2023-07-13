@@ -21,7 +21,7 @@ const Project = ({ project }) => {
     <a className="project hover" href={project.link ? project.link : project.githubLink} target="_blank" rel="noopener noreferrer">
       <div className='project-header'>
         <div className="center image-container">
-          <img src={images[project.image] ? images[project.image] : "placeholder.png"} alt="project_image" />
+          <img src={images[project.image] ? images[project.image] : "fallback.png"} alt="project_image" />
         </div>
         <div className="project-info center">
           <h3>{project.name}</h3>
