@@ -1,6 +1,6 @@
 .project {
     background-color: #333;
-    border: 2px #39FF14 solid;
+    border: 2px #12eab1 solid;
     border-radius: 10px;
     display: flex;
     flex-wrap: wrap;
@@ -86,7 +86,7 @@ img {
 
 p {
     text-align: center;
-    padding: 0 1vw;
+    padding: 0 2vw;
     width: 100%;
 }
 
