@@ -2,12 +2,15 @@
     background-color: #333;
     border: 2px #39FF14 solid;
     border-radius: 10px;
-    font-size: 20px;
     display: flex;
     flex-wrap: wrap;
     width: 30%;
+    min-width: 300px;
+    flex-basis: 200px;
+    flex-basis: 30%;
     height: auto;
     color: antiquewhite;
+    margin: 1em;
 }
 
 .project-header {
@@ -25,10 +28,11 @@
     justify-content: space-around !important;
 }
 
-h3 {
+.project-name {
+    width: 90%;
+    padding: 5px 0;
     margin: 0px;
 }
-
 
 a {
     text-decoration: inherit;
@@ -41,15 +45,22 @@ a {
 }
 
 .github-link-container {
+    display: flex;
     border: 1px black solid;
     border-radius: 10px;
-    width: 50%;
+    min-width: 50%;
     background-color: white;
     color: #000;
+    margin-bottom: 5px;
 }
 
 .github-link-container:hover {
     font-weight: bold;
+}
+
+.github-link-text {
+    min-width: 80px;
+    flex-basis: 80px;
 }
 
 .image-container {
@@ -74,6 +85,24 @@ img {
 }
 
 p {
-    text-align: justify;
+    text-align: center;
     padding: 0 1vw;
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .project {
+        width: 90%;
+        min-width: 100px;
+        margin: 1em 0;
+    }
+
+    .github-link-container {
+        width: 80%;
+    }
+
+    .github-image {
+        width: 30px;
+        height: 30px;
+    }
 }

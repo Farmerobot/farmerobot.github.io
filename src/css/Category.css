@@ -1,22 +1,25 @@
 .category {
     width: 100%;
-    height: 50vh;
+    min-height: 50vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     font-size: 30px;
 }
 
 .projects {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     width: 100%;
 }
 
 .name {
-    margin-top: 0;
+    margin: 0;
+    min-height: 2em;
     color: aliceblue;
+    font-size: 2em;
 }
 
 .category:nth-of-type(2n + 1) {
@@ -29,4 +32,16 @@
 
 .category:nth-of-type(2n) {
     background-color: #000;
+}
+
+@media only screen and (max-width: 600px) {
+    .category {
+        padding: 5vh 0;
+    }
+
+    .projects {
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
 }

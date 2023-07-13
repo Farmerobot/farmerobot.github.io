@@ -4,8 +4,6 @@ import '../css/Project.css';
 import github_image from '../img/github.png';
 import images from './Images';
 
-console.log(images);
-
 // const images = {
 //   wolniewicz: require('../img/wolniewicz.png'),
 //   pp: require('../img/pp.png'),
@@ -24,10 +22,10 @@ const Project = ({ project }) => {
           <img src={images[project.image] ? images[project.image] : "fallback.png"} alt="project_image" />
         </div>
         <div className="project-info center">
-          <h3>{project.name}</h3>
+          <h3 className='project-name center'>{project.name}</h3>
           {project.githubLink &&
             (<a className="github-link-container center" target="_blank" rel="noopener noreferrer" href={project.githubLink}>
-              Github Link
+              <span className='github-link-text'>Github Link</span>
               <img className="github-image" src={github_image} />
             </a>)}
         </div>

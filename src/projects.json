@@ -5,14 +5,14 @@
             "link": "http://wolniewicz.com.pl",
             "githubLink": "",
             "image": "wolniewicz",
-            "description": "A website built for a Polish metalworking company"
+            "description": "Website built for a Polish metalworking company in 2022."
         },
         {
             "name": "AI Summer School",
             "link": "https://ai-summer-school.put.poznan.pl",
             "githubLink": "",
             "image": "pp",
-            "description": "A website built for the Poznan University of Technology"
+            "description": "Website built by a team of 2 people for the Poznan University of Technology for a 2023 program."
         }
     ],
     "Unity": [
@@ -21,7 +21,7 @@
             "link": "https://play.google.com/store/apps/details?id=com.Sugoma.ScoutsSacrifice",
             "githubLink": "",
             "image": "archerio",
-            "description": "A mobile endless runner video game"
+            "description": "Mobile endless runner video game built by a team of 3 people made in Unity. It was started back in 2020. The project remains unfinished."
         }
     ],
     "Java Minecraft mods": [
@@ -30,21 +30,21 @@
             "link": "https://www.curseforge.com/minecraft/mc-mods/rough-mobs-revamped",
             "githubLink": "https://github.com/Farmerobot/Rough-Mobs-Revamped",
             "image": "rough_mobs_revamped",
-            "description": "This is a sample Minecraft mod."
+            "description": "Fork of a popular mod made for the Rebirth of the Night project."
         },
         {
             "name": "Better Slimes fork",
             "link": "https://www.curseforge.com/minecraft/mc-mods/better-slimes",
             "githubLink": "https://github.com/Farmerobot/Better-Slimes",
             "image": "better_slimes",
-            "description": "This is another sample Minecraft mod."
+            "description": "Fork of a popular mod made for the Rebirth of the Night project."
         },
         {
             "name": "Corpse Complex fork",
             "link": "https://www.curseforge.com/minecraft/mc-mods/corpse-complex",
             "githubLink": "https://github.com/Farmerobot/CorpseComplex/tree/1.12.x",
             "image": "corpse_complex",
-            "description": ""
+            "description": "Fork of a popular mod made for the Rebirth of the Night project."
         }
     ],
     "C": [
@@ -53,21 +53,21 @@
             "link": "",
             "githubLink": "https://github.com/Farmerobot/ini_parser",
             "image": "",
-            "description": "This is a sample C project."
+            "description": "Parser for .ini files."
         },
         {
             "name": ".bmp file parser",
             "link": "",
             "githubLink": "https://github.com/Farmerobot/bmp_parser",
             "image": "",
-            "description": "This is another sample C project."
+            "description": "Parser for .bmp files."
         },
         {
             "name": "Museum synchronisation problem",
             "link": "",
             "githubLink": "https://github.com/Farmerobot/museum_synchronisation_problem",
             "image": "",
-            "description": "This is a sample C project."
+            "description": "Solution to a synchronisation problem"
         }
     ],
     "Python": [
@@ -76,14 +76,14 @@
             "link": "",
             "githubLink": "https://github.com/Farmerobot/image_to_ascii",
             "image": "",
-            "description": "This is a sample Python project."
+            "description": "Program used to convert images to ASCII art."
         },
         {
             "name": "Algorithm collection",
             "link": "",
             "githubLink": "https://github.com/Farmerobot/algorithm_collection/tree/main/python",
             "image": "",
-            "description": "This is another sample Python project."
+            "description": "Collection of algorithms and programming written mostly for university classes. greedy, knapsack, topological oder, graph cycles"
         }
     ],
     "Django": [
@@ -92,7 +92,7 @@
             "link": "https://github.com/Pawlik02/coffee-finder",
             "githubLink": "https://github.com/Pawlik02/coffee-finder",
             "image": "coffee_finder",
-            "description": "This is a sample Django project."
+            "description": "A django application built by a team of 4 people used for finding nearby cafes with the help of Google Maps API."
         }
     ]
 }
