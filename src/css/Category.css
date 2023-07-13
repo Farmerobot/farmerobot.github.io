@@ -1,0 +1,32 @@
+.category {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.projects {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.name {
+    margin-top: 0;
+    color: aliceblue;
+}
+
+.category:nth-of-type(2n + 1) {
+    background-color: #111;
+    /* background-image: url('../img/mountain.jpg'); */
+    background-repeat: repeat-y;
+    background-size: cover;
+
+}
+
+.category:nth-of-type(2n) {
+    background-color: #000;
+}

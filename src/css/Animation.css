@@ -1,0 +1,10 @@
+.Animation {
+  animation: rotate 5s infinite;
+  background: linear-gradient(to right, #1d92b9, #18b532);
+  width: 30px;
+}
+
+@keyframes rotate {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

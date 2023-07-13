@@ -1,0 +1,8 @@
+.hover {
+  transition: all 0.3s ease;
+}
+
+.hover:hover {
+  transform: scale(1.1);
+  color: #39FF14;
+}

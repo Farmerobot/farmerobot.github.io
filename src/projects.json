@@ -1,0 +1,98 @@
+{
+    "Wordpress": [
+        {
+            "name": "Wolniewicz",
+            "link": "http://wolniewicz.com.pl",
+            "githubLink": "",
+            "image": "wolniewicz",
+            "description": "A website built for a Polish metalworking company"
+        },
+        {
+            "name": "AI Summer School",
+            "link": "https://ai-summer-school.put.poznan.pl",
+            "githubLink": "",
+            "image": "pp",
+            "description": "A website built for the Poznan University of Technology"
+        }
+    ],
+    "Unity": [
+        {
+            "name": "Scout's Sacrifice",
+            "link": "https://play.google.com/store/apps/details?id=com.Sugoma.ScoutsSacrifice",
+            "githubLink": "",
+            "image": "archerio",
+            "description": "A mobile endless runner video game"
+        }
+    ],
+    "Java Minecraft mods": [
+        {
+            "name": "Rough Mobs Revamped fork",
+            "link": "https://www.curseforge.com/minecraft/mc-mods/rough-mobs-revamped",
+            "githubLink": "https://github.com/Farmerobot/Rough-Mobs-Revamped",
+            "image": "rough_mobs_revamped",
+            "description": "This is a sample Minecraft mod."
+        },
+        {
+            "name": "Better Slimes fork",
+            "link": "https://www.curseforge.com/minecraft/mc-mods/better-slimes",
+            "githubLink": "https://github.com/Farmerobot/Better-Slimes",
+            "image": "better_slimes",
+            "description": "This is another sample Minecraft mod."
+        },
+        {
+            "name": "Corpse Complex fork",
+            "link": "https://www.curseforge.com/minecraft/mc-mods/corpse-complex",
+            "githubLink": "https://github.com/Farmerobot/CorpseComplex/tree/1.12.x",
+            "image": "corpse_complex",
+            "description": ""
+        }
+    ],
+    "C": [
+        {
+            "name": ".ini file parser",
+            "link": "",
+            "githubLink": "https://github.com/Farmerobot/ini_parser",
+            "image": "",
+            "description": "This is a sample C project."
+        },
+        {
+            "name": ".bmp file parser",
+            "link": "",
+            "githubLink": "https://github.com/Farmerobot/bmp_parser",
+            "image": "",
+            "description": "This is another sample C project."
+        },
+        {
+            "name": "Museum synchronisation problem",
+            "link": "",
+            "githubLink": "https://github.com/Farmerobot/museum_synchronisation_problem",
+            "image": "",
+            "description": "This is a sample C project."
+        }
+    ],
+    "Python": [
+        {
+            "name": "Image to ascii",
+            "link": "",
+            "githubLink": "https://github.com/Farmerobot/image_to_ascii",
+            "image": "",
+            "description": "This is a sample Python project."
+        },
+        {
+            "name": "Algorithm collection",
+            "link": "",
+            "githubLink": "https://github.com/Farmerobot/algorithm_collection/tree/main/python",
+            "image": "",
+            "description": "This is another sample Python project."
+        }
+    ],
+    "Django": [
+        {
+            "name": "Coffee Finder",
+            "link": "https://github.com/Pawlik02/coffee-finder",
+            "githubLink": "https://github.com/Pawlik02/coffee-finder",
+            "image": "coffee_finder",
+            "description": "This is a sample Django project."
+        }
+    ]
+}
