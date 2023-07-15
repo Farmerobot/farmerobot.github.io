@@ -1,8 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.60f8bf71.css",
-    "main.js": "/static/js/main.9c38df39.js",
-    "static/media/mountain.jpg": "/static/media/mountain.31975decc832a44c7815.jpg",
+    "main.css": "/static/css/main.4beb5296.css",
+    "main.js": "/static/js/main.cd8357dc.js",
+    "static/media/mountain_full.png": "/static/media/mountain_full.debdcca015b3a1f00669.png",
+    "static/media/mountain_16_9.png": "/static/media/mountain_16_9.f87e871b30b90bed5d74.png",
+    "static/media/mountain_old.png": "/static/media/mountain_old.31975decc832a44c7815.png",
     "static/media/wolniewicz.png": "/static/media/wolniewicz.04e88388cc8a1838cf1c.png",
     "static/media/pp.png": "/static/media/pp.fe902b8e1d00212454cb.png",
     "static/media/rough_mobs_revamped.png": "/static/media/rough_mobs_revamped.d656f24c91d8fcf3c459.png",
@@ -10,11 +12,11 @@
     "static/media/coffee_finder.png": "/static/media/coffee_finder.6a785fbb9cd9612e6d88.png",
     "static/media/github.png": "/static/media/github.83de968c4b4b206b5493.png",
     "index.html": "/index.html",
-    "main.60f8bf71.css.map": "/static/css/main.60f8bf71.css.map",
-    "main.9c38df39.js.map": "/static/js/main.9c38df39.js.map"
+    "main.4beb5296.css.map": "/static/css/main.4beb5296.css.map",
+    "main.cd8357dc.js.map": "/static/js/main.cd8357dc.js.map"
   },
   "entrypoints": [
-    "static/css/main.60f8bf71.css",
-    "static/js/main.9c38df39.js"
+    "static/css/main.4beb5296.css",
+    "static/js/main.cd8357dc.js"
   ]
 }
