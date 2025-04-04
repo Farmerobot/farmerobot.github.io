@@ -1,5 +1,5 @@
 .category-section {
-    padding: 5rem 2rem;
+    padding: 4rem 0;
     width: 100%;
     max-width: 100%;
     background-color: #0F172A;
@@ -14,30 +14,32 @@
 .category-header {
     max-width: 1200px;
     width: 100%;
-    margin: 0 auto 3rem;
+    margin: 0 auto 2.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 
 .category-title {
     color: #F8FAFC;
     font-size: 2.5rem;
     font-weight: 700;
-    margin-bottom: 1.5rem;
     position: relative;
-    text-align: center;
+    display: inline-block;
+    padding-bottom: 0.5rem;
 }
 
 .category-title::after {
     content: '';
     position: absolute;
-    bottom: -0.5rem;
+    bottom: 0;
     left: 50%;
     transform: translateX(-50%);
-    width: 60px;
-    height: 3px;
-    background-color: #06B6D4;
+    width: 80px;
+    height: 4px;
+    background: linear-gradient(90deg, #06B6D4, #0891B2);
+    border-radius: 2px;
 }
 
 .category-filters {
@@ -77,14 +79,42 @@
 
 .projects-grid {
     display: flex;
-    flex-wrap: wrap;
-    gap: 2rem;
-    max-width: 1200px;
+    justify-content: center;
     width: 100%;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 0 1rem;
-    box-sizing: border-box;
+}
+
+.category-projects-row {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    gap: 2rem;
+    width: 100%;
+}
+
+/* Media Queries */
+@media (max-width: 1200px) {
+    .projects-grid {
+        max-width: 900px;
+    }
+}
+
+@media (max-width: 900px) {
+    .projects-grid {
+        max-width: 600px;
+    }
+}
+
+@media (max-width: 600px) {
+    .category-title {
+        font-size: 2rem;
+    }
+    
+    .projects-grid {
+        padding: 0 0.5rem;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -96,7 +126,7 @@
         font-size: 2rem;
     }
     
-    .projects-grid {
+    .category-projects-row {
         gap: 1.5rem;
     }
 }
@@ -118,7 +148,7 @@
         justify-content: flex-start;
     }
     
-    .projects-grid {
+    .category-projects-row {
         gap: 1.5rem;
         padding: 0 0.5rem;
     }
