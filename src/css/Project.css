@@ -1,108 +1,180 @@
-.project {
-    background-color: #333;
-    border: 2px #12eab1 solid;
-    border-radius: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    width: 30%;
+.project-card {
+    background-color: #1E293B;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 100%;
+    max-width: 380px;
+    flex: 0 0 calc(33.333% - 2rem);
     min-width: 300px;
-    flex-basis: 200px;
-    flex-basis: 30%;
-    height: auto;
-    color: antiquewhite;
-    margin: 1em;
-}
-
-.project-header {
-    width: 100%;
-    display: flex;
-    flex-wrap: nowrap;
-    border-bottom: 1px solid black;
-}
-
-.project-info {
-    width: 100%;
-    height: auto;
+    margin: 0;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
     display: flex;
     flex-direction: column;
-    justify-content: space-around !important;
+    box-sizing: border-box;
 }
 
-.project-name {
-    width: 90%;
-    padding: 5px 0;
-    margin: 0px;
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
 }
 
-a {
-    text-decoration: inherit;
-    color: inherit;
+.project-image {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio */
+    overflow: hidden;
+    background-color: #0F172A;
 }
 
-.github-image {
-    width: 50px;
-    height: 50px;
-}
-
-.github-link-container {
-    display: flex;
-    border: 1px black solid;
-    border-radius: 10px;
-    min-width: 50%;
-    background-color: white;
-    color: #000;
-    margin-bottom: 5px;
-}
-
-.github-link-container:hover {
-    font-weight: bold;
-}
-
-.github-link-text {
-    min-width: 80px;
-    flex-basis: 80px;
-}
-
-.image-container {
-    width: 30%;
-    padding: 0 5px;
+.project-image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
     height: 100%;
-    border-right: 1px solid black;
+    object-fit: contain; /* Changed from cover to contain */
+    object-position: center;
+    transition: transform 0.5s ease;
+    padding: 1rem;
+    box-sizing: border-box;
 }
 
-img {
-    height: auto;
-    width: 90%;
-    padding: 5px;
-    /* margin: 5px 0 0 5px; */
+.project-card:hover .project-image img {
+    transform: scale(1.05);
 }
 
-.center {
+.project-content {
+    padding: 1.5rem;
+    flex: 1;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
 }
 
-p {
-    text-align: center;
-    padding: 0 2vw;
+.project-title {
+    color: #F8FAFC;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 0 0 1rem 0;
+    line-height: 1.4;
+    word-wrap: break-word;
+}
+
+.project-description {
+    color: #94A3B8;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    flex: 1;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    text-align: justify;
+    hyphens: auto;
+}
+
+.project-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
     width: 100%;
 }
 
-@media only screen and (max-width: 600px) {
-    .project {
-        width: 90%;
-        min-width: 100px;
-        margin: 1em 0;
-    }
+.project-tag {
+    background-color: rgba(6, 182, 212, 0.1);
+    color: #06B6D4;
+    font-size: 0.75rem;
+    font-weight: 500;
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+    white-space: nowrap;
+}
 
-    .github-link-container {
-        width: 80%;
-    }
+.project-links {
+    display: flex;
+    gap: 1rem;
+    margin-top: auto;
+    flex-wrap: wrap;
+}
 
-    .github-image {
-        width: 30px;
-        height: 30px;
+.project-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+}
+
+.project-link:first-child {
+    background-color: #06B6D4;
+    color: #0F172A;
+}
+
+.project-link:first-child:hover {
+    background-color: #0891B2;
+}
+
+.project-link.github {
+    background-color: transparent;
+    color: #F8FAFC;
+    border: 1px solid #64748B;
+}
+
+.project-link.github:hover {
+    border-color: #94A3B8;
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.github-icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 0.5rem;
+}
+
+@media only screen and (max-width: 1200px) {
+    .project-card {
+        flex: 0 0 calc(50% - 2rem);
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .project-card {
+        flex: 0 0 calc(100% - 2rem);
+        max-width: 500px;
+        margin: 0;
+    }
+    
+    .project-links {
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .project-content {
+        padding: 1rem;
+    }
+    
+    .project-title {
+        font-size: 1.1rem;
+    }
+    
+    .project-description {
+        font-size: 0.9rem;
+    }
+    
+    .project-links {
+        flex-direction: column;
+        gap: 0.75rem;
+    }
+    
+    .project-link {
+        width: 100%;
     }
 }

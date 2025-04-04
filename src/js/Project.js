@@ -4,34 +4,60 @@ import '../css/Project.css';
 import github_image from '../img/github.png';
 import images from './Images';
 
-// const images = {
-//   wolniewicz: require('../img/wolniewicz.png'),
-//   pp: require('../img/pp.png'),
-//   archerio: require('../img/archerio.png'),
-//   rough_mobs_revamped: require('../img/rough_mobs_revamped.png'),
-//   better_slimes: require('../img/better_slimes.png'),
-//   corpse_complex: require('../img/corpse_complex.png'),
-//   coffee_finder: require('../img/coffee_finder.png')
-// }
-
 const Project = ({ project }) => {
+  // Extract technology tags from description (this is a simple implementation)
+  const getTags = (description) => {
+    const techTerms = [
+      'React', 'JavaScript', 'Python', 'C#', 'Unity', 'Java', 'GAN', 
+      'AI', 'ML', 'Django', 'WordPress', 'C', 'LLM', 'API'
+    ];
+    
+    const tags = [];
+    techTerms.forEach(term => {
+      if (description.includes(term)) {
+        tags.push(term);
+      }
+    });
+    
+    // Limit to 3 tags
+    return tags.slice(0, 3);
+  };
+
+  const tags = getTags(project.description);
+
   return (
-    <a className="project hover" href={project.link ? project.link : project.githubLink} target="_blank" rel="noopener noreferrer">
-      <div className='project-header'>
-        <div className="center image-container">
-          <img src={images[project.image] ? images[project.image] : "fallback.png"} alt="project_image" />
+    <div className="project-card">
+      <div className="project-image">
+        <img src={images[project.image] ? images[project.image] : "fallback.png"} alt={project.name} />
+      </div>
+      
+      <div className="project-content">
+        <h3 className="project-title">{project.name}</h3>
+        
+        <p className="project-description">{project.description}</p>
+        
+        <div className="project-tags">
+          {tags.map((tag, index) => (
+            <span key={index} className="project-tag">{tag}</span>
+          ))}
         </div>
-        <div className="project-info center">
-          <h3 className='project-name center'>{project.name}</h3>
-          {project.githubLink &&
-            (<a className="github-link-container center" target="_blank" rel="noopener noreferrer" href={project.githubLink}>
-              <span className='github-link-text'>Github Link</span>
-              <img className="github-image" src={github_image} />
-            </a>)}
+        
+        <div className="project-links">
+          {project.link && (
+            <a href={project.link} className="project-link" target="_blank" rel="noopener noreferrer">
+              View Project
+            </a>
+          )}
+          
+          {project.githubLink && (
+            <a href={project.githubLink} className="project-link github" target="_blank" rel="noopener noreferrer">
+              <img src={github_image} alt="GitHub" className="github-icon" />
+              View Code
+            </a>
+          )}
         </div>
       </div>
-      <p>{project.description}</p>
-    </a>
+    </div>
   );
 }
 
