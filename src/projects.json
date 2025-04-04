@@ -4,7 +4,7 @@
             "name": "Among Them",
             "link": "https://arxiv.org/abs/2502.20426",
             "githubLink": "https://github.com/Farmerobot/among_them",
-            "image": "paper",
+            "image": "among_them_border",
             "description": "Innovative research framework for quantitatively evaluating persuasion capabilities of Large Language Models through game-based interactions and controlled experiments.",
             "keywords": ["LLM", "Research", "AI Ethics", "AI Safety"]
         }
@@ -14,7 +14,7 @@
             "name": "TaxGPT",
             "link": "",
             "githubLink": "https://github.com/Farmerobot/TaxGPT",
-            "image": "ai",
+            "image": "tax_gpt",
             "description": "Advanced AI-powered tax assistant leveraging natural language processing to streamline the completion of Polish tax forms, enhancing accuracy and reducing processing time.",
             "keywords": ["NLP", "TensorFlow", "GPT"]
         },
@@ -22,9 +22,9 @@
             "name": "CV Inpainting",
             "link": "",
             "githubLink": "https://github.com/Luncenok/cv-inpainting",
-            "image": "ai",
+            "image": "cv_inpainting",
             "description": "Optimized Generative Adversarial Network (GAN) implementation for facial image reconstruction and inpainting, demonstrating efficient deep learning architecture design for small computer vision applications.",
-            "keywords": ["GAN", "Computer Vision", "TensorFlow", "Deep Learning"]
+            "keywords": ["GAN", "Computer Vision", "PyTorch", "Deep Learning"]
         }
     ],
     "Unity": [
