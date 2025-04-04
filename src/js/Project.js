@@ -5,26 +5,6 @@ import github_image from '../img/github.png';
 import images from './Images';
 
 const Project = ({ project }) => {
-  // Extract technology tags from description (this is a simple implementation)
-  const getTags = (description) => {
-    const techTerms = [
-      'React', 'JavaScript', 'Python', 'C#', 'Unity', 'Java', 'GAN', 
-      'AI', 'ML', 'Django', 'WordPress', 'C', 'LLM', 'API'
-    ];
-    
-    const tags = [];
-    techTerms.forEach(term => {
-      if (description.includes(term)) {
-        tags.push(term);
-      }
-    });
-    
-    // Limit to 3 tags
-    return tags.slice(0, 3);
-  };
-
-  const tags = getTags(project.description);
-
   return (
     <div className="project-card">
       <div className="project-image">
@@ -36,11 +16,13 @@ const Project = ({ project }) => {
         
         <p className="project-description">{project.description}</p>
         
-        <div className="project-tags">
-          {tags.map((tag, index) => (
-            <span key={index} className="project-tag">{tag}</span>
-          ))}
-        </div>
+        {project.keywords && (
+          <div className="project-tags">
+            {project.keywords.map((keyword, index) => (
+              <span key={index} className="project-tag">{keyword}</span>
+            ))}
+          </div>
+        )}
         
         <div className="project-links">
           {project.link && (

@@ -5,7 +5,8 @@
             "link": "https://arxiv.org/abs/2502.20426",
             "githubLink": "https://github.com/Farmerobot/among_them",
             "image": "paper",
-            "description": "Innovative research framework for quantitatively evaluating persuasion capabilities of Large Language Models through game-based interactions and controlled experiments."
+            "description": "Innovative research framework for quantitatively evaluating persuasion capabilities of Large Language Models through game-based interactions and controlled experiments.",
+            "keywords": ["LLM", "Research", "AI Ethics", "AI Safety"]
         }
     ],
     "ML": [
@@ -14,14 +15,16 @@
             "link": "",
             "githubLink": "https://github.com/Farmerobot/TaxGPT",
             "image": "ai",
-            "description": "Advanced AI-powered tax assistant leveraging natural language processing to streamline the completion of Polish tax forms, enhancing accuracy and reducing processing time."
+            "description": "Advanced AI-powered tax assistant leveraging natural language processing to streamline the completion of Polish tax forms, enhancing accuracy and reducing processing time.",
+            "keywords": ["NLP", "TensorFlow", "GPT"]
         },
         {
             "name": "CV Inpainting",
             "link": "",
             "githubLink": "https://github.com/Luncenok/cv-inpainting",
             "image": "ai",
-            "description": "Optimized Generative Adversarial Network (GAN) implementation for facial image reconstruction and inpainting, demonstrating efficient deep learning architecture design for small computer vision applications."
+            "description": "Optimized Generative Adversarial Network (GAN) implementation for facial image reconstruction and inpainting, demonstrating efficient deep learning architecture design for small computer vision applications.",
+            "keywords": ["GAN", "Computer Vision", "TensorFlow", "Deep Learning"]
         }
     ],
     "Unity": [
@@ -30,69 +33,8 @@
             "link": "https://play.google.com/store/apps/details?id=com.Sugoma.ScoutsSacrifice",
             "githubLink": "",
             "image": "archerio",
-            "description": "Cross-platform mobile endless runner developed in Unity with C#, featuring procedural level and combat generation. Led a three-person development team through initial concept to public release."
-        }
-    ],
-    "Wordpress": [
-        {
-            "name": "Wolniewicz",
-            "link": "http://wolniewicz.com.pl",
-            "githubLink": "",
-            "image": "wolniewicz",
-            "description": "Custom WordPress solution for a Polish metalworking company featuring responsive design, multilingual support, and integrated product catalog with custom taxonomies and post types."
-        },
-        {
-            "name": "AI Summer School",
-            "link": "https://ai-summer-school.put.poznan.pl",
-            "githubLink": "",
-            "image": "pp",
-            "description": "Comprehensive WordPress platform for Poznan University of Technology's AI Summer School program, featuring event management, registration systems, and dynamic content delivery for academic curricula."
-        }
-    ],
-    "Java Projects": [
-        {
-            "name": "Rough Mobs Revamped fork",
-            "link": "https://www.curseforge.com/minecraft/mc-mods/rough-mobs-revamped",
-            "githubLink": "https://github.com/Farmerobot/Rough-Mobs-Revamped",
-            "image": "rough_mobs_revamped",
-            "description": "Enhanced fork of a popular Minecraft modification implementing advanced AI behavior patterns, custom entity attributes, and performance optimizations for the Rebirth of the Night modpack ecosystem."
-        },
-        {
-            "name": "Better Slimes fork",
-            "link": "https://www.curseforge.com/minecraft/mc-mods/better-slimes",
-            "githubLink": "https://github.com/Farmerobot/Better-Slimes",
-            "image": "better_slimes",
-            "description": "Refactored and extended Minecraft modification featuring custom entity rendering, biome-specific spawn algorithms, and configurable gameplay mechanics integrated with the Rebirth of the Night modpack."
-        },
-        {
-            "name": "Corpse Complex fork",
-            "link": "https://www.curseforge.com/minecraft/mc-mods/corpse-complex",
-            "githubLink": "https://github.com/Farmerobot/CorpseComplex/tree/1.12.x",
-            "image": "corpse_complex",
-            "description": "Technically enhanced Minecraft modification implementing configurable player death mechanics, inventory management systems, and cross-mod compatibility layers for the Rebirth of the Night project."
-        }
-    ],
-    "C": [
-        {
-            "name": ".ini file parser",
-            "link": "",
-            "githubLink": "https://github.com/Farmerobot/ini_parser",
-            "image": "c",
-            "description": "High-performance C implementation of an INI file parser featuring memory-efficient data structures, robust error handling, and comprehensive configuration management capabilities."
-        },
-        {
-            "name": ".bmp file parser",
-            "link": "",
-            "githubLink": "https://github.com/Farmerobot/bmp_parser",
-            "image": "c",
-            "description": "Low-level BMP image processing library with steganography capabilities, implementing bit manipulation algorithms for secure data embedding and extraction within image files."
-        },
-        {
-            "name": "Museum synchronisation problem",
-            "link": "",
-            "githubLink": "https://github.com/Farmerobot/museum_synchronisation_problem",
-            "image": "c",
-            "description": "Multi-threaded solution to the classical synchronization problem utilizing mutex locks, semaphores, and condition variables to ensure thread safety and prevent deadlocks in concurrent systems."
+            "description": "Cross-platform mobile endless runner developed in Unity with C#, featuring procedural level and combat generation. Led a three-person development team through initial concept to public release.",
+            "keywords": ["Unity", "C#", "Game Dev"]
         }
     ],
     "Python": [
@@ -101,14 +43,42 @@
             "link": "",
             "githubLink": "https://github.com/Farmerobot/image_to_ascii",
             "image": "python",
-            "description": "Python-based image processing utility that converts raster images to ASCII art through luminance analysis, custom character mapping, and output formatting for various terminal environments."
+            "description": "Python-based image processing utility that converts raster images to ASCII art through luminance analysis, custom character mapping, and output formatting for various terminal environments.",
+            "keywords": ["Python", "Image Processing", "ASCII Art"]
         },
         {
             "name": "Algorithm collection",
             "link": "",
             "githubLink": "https://github.com/Farmerobot/algorithm_collection/tree/main/python",
             "image": "python",
-            "description": "Comprehensive implementation of advanced algorithms including greedy optimization, dynamic programming for knapsack problems, graph theory applications for topological ordering, and cycle detection with performance benchmarking."
+            "description": "Comprehensive implementation of advanced algorithms including greedy optimization, dynamic programming for knapsack problems, graph theory applications for topological ordering, and cycle detection with performance benchmarking.",
+            "keywords": ["Python", "Algorithms", "Data Structures"]
+        }
+    ],
+    "C": [
+        {
+            "name": ".ini file parser",
+            "link": "",
+            "githubLink": "https://github.com/Farmerobot/ini_parser",
+            "image": "c",
+            "description": "High-performance C implementation of an INI file parser featuring memory-efficient data structures, robust error handling, and comprehensive configuration management capabilities.",
+            "keywords": ["C", "Data Structures", "Parsing"]
+        },
+        {
+            "name": ".bmp file parser",
+            "link": "",
+            "githubLink": "https://github.com/Farmerobot/bmp_parser",
+            "image": "c",
+            "description": "Low-level BMP image processing library with steganography capabilities, implementing bit manipulation algorithms for secure data embedding and extraction within image files.",
+            "keywords": ["C", "Steganography", "Image Processing"]
+        },
+        {
+            "name": "Museum synchronisation problem",
+            "link": "",
+            "githubLink": "https://github.com/Farmerobot/museum_synchronisation_problem",
+            "image": "c",
+            "description": "Multi-threaded solution to the classical synchronization problem utilizing mutex locks, semaphores, and condition variables to ensure thread safety and prevent deadlocks in concurrent systems.",
+            "keywords": ["C", "Multi-threading", "Concurrency"]
         }
     ],
     "Django": [
@@ -117,7 +87,52 @@
             "link": "https://github.com/Pawlik02/coffee-finder",
             "githubLink": "https://github.com/Pawlik02/coffee-finder",
             "image": "coffee_finder",
-            "description": "Full-stack Django web application integrating Google Maps API for geolocation services, featuring user authentication, review systems, and responsive design patterns developed collaboratively in an agile team environment."
+            "description": "Full-stack Django web application integrating Google Maps API for geolocation services, featuring user authentication, review systems, and responsive design patterns developed collaboratively in an agile team environment.",
+            "keywords": ["Django", "Python", "Google Maps API"]
+        }
+    ],
+    "Wordpress": [
+        {
+            "name": "Wolniewicz",
+            "link": "http://wolniewicz.com.pl",
+            "githubLink": "",
+            "image": "wolniewicz",
+            "description": "Custom WordPress solution for a Polish metalworking company featuring responsive design, multilingual support, and integrated product catalog with custom taxonomies and post types.",
+            "keywords": ["WordPress", "PHP", "Responsive Design"]
+        },
+        {
+            "name": "AI Summer School",
+            "link": "https://ai-summer-school.put.poznan.pl",
+            "githubLink": "",
+            "image": "pp",
+            "description": "Comprehensive WordPress platform for Poznan University of Technology's AI Summer School program, featuring event management, registration systems, and dynamic content delivery for academic curricula.",
+            "keywords": ["WordPress", "Event Management", "UI/UX"]
+        }
+    ],
+    "Java Projects": [
+        {
+            "name": "Rough Mobs Revamped fork",
+            "link": "https://www.curseforge.com/minecraft/mc-mods/rough-mobs-revamped",
+            "githubLink": "https://github.com/Farmerobot/Rough-Mobs-Revamped",
+            "image": "rough_mobs_revamped",
+            "description": "Enhanced fork of a popular Minecraft modification implementing advanced AI behavior patterns, custom entity attributes, and performance optimizations for the Rebirth of the Night modpack ecosystem.",
+            "keywords": ["Java", "Minecraft", "Game Dev"]
+        },
+        {
+            "name": "Better Slimes fork",
+            "link": "https://www.curseforge.com/minecraft/mc-mods/better-slimes",
+            "githubLink": "https://github.com/Farmerobot/Better-Slimes",
+            "image": "better_slimes",
+            "description": "Refactored and extended Minecraft modification featuring custom entity rendering, biome-specific spawn algorithms, and configurable gameplay mechanics integrated with the Rebirth of the Night modpack.",
+            "keywords": ["Java", "Game Dev", "Algorithms"]
+        },
+        {
+            "name": "Corpse Complex fork",
+            "link": "https://www.curseforge.com/minecraft/mc-mods/corpse-complex",
+            "githubLink": "https://github.com/Farmerobot/CorpseComplex/tree/1.12.x",
+            "image": "corpse_complex",
+            "description": "Technically enhanced Minecraft modification implementing configurable player death mechanics, inventory management systems, and cross-mod compatibility layers for the Rebirth of the Night project.",
+            "keywords": ["Java", "API Integration", "Game Dev"]
         }
     ]
 }
