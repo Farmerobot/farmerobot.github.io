@@ -63,7 +63,7 @@ const Navigation = () => {
             <a href="/documents/resume.pdf" target="_blank" rel="noopener noreferrer" className="nav-link">Resume</a>
           </li>
           <li>
-            <a href="mailto:mateusz.stawicki@3lance.pl" className="nav-cta">Contact</a>
+            <button className="nav-cta" onClick={() => scrollToSection('contact')}>Contact</button>
           </li>
         </ul>
       </div>
